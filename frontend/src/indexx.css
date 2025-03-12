@@ -1,0 +1,321 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.list{
+  display: grid; /* Enable grid layout */
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define grid columns */
+gap: 20px; /* Spacing between grid items */
+padding: 20px; /* Padding around the grid */
+
+
+}
+.Search-bar {
+width: 100%; /* Full width */
+max-width: 600px; /* Maximum width */
+padding: 10px; /* Padding inside the input */
+border-radius: 5px; /* Rounded corners */
+border: 1px solid #ccc; /* Border style */
+}
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #012c08;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b8f21;
+}
+
+
+.Show_EmployeeList {
+  width: 100%;
+  max-width: 100%; /* Ensure no max-width is restricting it */
+  padding: 20px; /* Optional: Add padding if needed */
+  width: 100%; /* Full width input */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.Search-bar {
+  width: 100%; /* Ensure the search bar takes the full width of the container */
+}
+.button {
+  margin-top: 10px; /* Add top margin to keep space */
+}
+
+/* Style for button */
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #042805; /* Green background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.Assign_btn {
+  display: inline-block;
+  padding: 5px 10px;
+  color: rgb(4, 4, 4);
+  background-color: #ffffff; /* Default blue color */
+  border: none;
+  border-radius: 8px;
+  margin: 10px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adding a slight shadow */
+}
+
+.Assign_btn:hover {
+  transform: scale(1.1); /* Slightly enlarges the button on hover */
+  background-color: #166c27; /* Changes to a darker blue */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+}
+
+.Assign_btn:active {
+  transform: scale(0.95); /* Slightly shrink when clicked */
+}
+.app-container {
+  display: flex;
+}
+
+.navigation {
+  width: 200px; /* Set a fixed width for the navigation */
+  background-color: #f8f8f8; /* Example background color */
+  height: 100vh; /* Full height */
+}
+
+.content-container {
+  flex-grow: 1; /* Allow content to take remaining space */
+  padding: 20px; /* Add some padding */
+}
+/* Dashboard Layout */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.pie-chart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pie-chart-container {
+  width: 100%;
+  height: 300px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #06402B;
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-button {
+  margin-right: 20px;
+}
+
+.profile-button button {
+  background-color: #06402b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-button button:hover {
+  background-color: #046f5b;
+}
+/* Ensure the layout has no white space */
+.app-container {
+  display: flex;
+  height: 100vh; /* Full screen height */
+}
+
+.navbar-container {
+  width: 250px; /* Define a width for the navbar */
+  background-color: #000; /* Assuming the navbar background color */
+}
+
+.content-container {
+  flex: 1; /* This will take up the remaining width */
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional: change background color if needed */
+}
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7e0; /* Light green background */
+  padding: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #06402B;
+  font-size: 28px;
+}
+
+.profile-button .profile-btn {
+  background-color: #02210b;
+  color: #f9f9f9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button .profile-btn:hover {
+  background-color: #05e649;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #06402B;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card .count {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.pie-chart-container {
+  margin-top: 20px;
+  height: 250px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  color: #06402B;
+}
+

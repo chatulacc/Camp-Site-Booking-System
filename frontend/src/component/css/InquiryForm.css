@@ -1,0 +1,78 @@
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f6d3e;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact-details{
+    flex: 1;
+    padding-right: 40px;
+}
+
+.contact-details h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-details p{
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact-details img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inquiry-form{
+    flex: 1;
+    background-color: #2e9454;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-form h2{
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.inquiry-form input, .inquiry-form textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.inquiry-form textarea{
+    height: 150px;
+    resize: none;
+}
+
+.inquiry-form button{
+    width: 100%;
+    background-color: #1f6d3e;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inquiry-form button:hover{
+    background-color: #15522c;
+}
+
+.response-msg{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}

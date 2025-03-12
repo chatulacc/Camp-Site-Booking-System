@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: #4c5f38 !important;
+}
+
+p{
+  font-size: 16px !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.smallimg{
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+h1{
+  font-size: 20px !important;
+}
+
+.btn{
+  background-color: #4c5f38 !important;
+  color: white !important;
+  box-shadow: none !important;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3a6445 !important; 
+  color: #f1f1f1 !important; 
+}
+
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+.bigimg{
+  height: 400px;
+  border-radius: 5px !important;
+}
+
+input , select , .ant-picker{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  /* border: 2px solid black !important; */
+  width: 100% !important;
+  border-radius: 3px !important;
+  height: 35px !important;
+}
+
+.dropdown-toggle{
+  border: 0px solid black !important;
+}
+
+.ant-picker-input input{
+  border: none !important;
+}
+
+.landing{
+  background-color: #1C4532 !important;
+  height: 100vh;
+}
+
+.landingbtn{
+  background-color: white !important;
+  color: black !important;
+  margin-top: 20px;
+}

@@ -1,0 +1,121 @@
+/* Profile Container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+/* Profile Form */
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 450px;
+    background-color: #4CAF50; /* Green background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Form Group - Aligned Rows */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align labels and inputs in rows */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Labels for Profile Form */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Profile Inputs */
+.profile-input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    background-color: #f9f9f9;
+    margin-top: 5px;
+}
+
+/* Buttons */
+.update-button, .small-button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e7d32;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.update-button:hover, .small-button:hover {
+    background-color: #1b5e20;
+}
+
+/* Heading */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Inquiry Grid */
+.inquiry-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Inquiry Items */
+.inquiry-item {
+    padding: 15px;
+    background-color: #4CAF50; /* Match the form's green */
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Inquiry Inputs */
+.inquiry-input, .inquiry-textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+/* Inquiry Buttons */
+.inquiry-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e7d32;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.inquiry-button:hover {
+    background-color: #1b5e20;
+}
+
+/* Error and Loading Messages */
+.loading, .error {
+    color: red;
+    text-align: center;
+}
